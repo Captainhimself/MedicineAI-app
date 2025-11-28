@@ -1,0 +1,79 @@
+/* Metrics card style */
+.metric-card {
+    background: #f8f9fa;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.metric-card:hover {
+    background: #fff;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    transform: translateY(-3px);
+}
+
+.user-item {
+    border: 1px solid #e9ecef;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+}
+.user-item:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+.product-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background: #fff;
+    transition: 0.2s ease;
+}
+.product-card:hover {
+    border-color: #0d6efd;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.quantity-control button {
+    border-radius: 50%;
+}
+
+.reg-card { border: none;
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,.06); }
+
+.status { display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 500;
+    color: #16a34a;
+    background: #dcfce7;
+    border-radius: 9999px;
+    padding: 4px 12px;
+    font-size: 0.9rem; }
+.lnd { background-color: #f3f4f6;
+    font-family: system-ui, sans-serif; }
+
+.confirm-header {
+    background: linear-gradient(135deg, #198754, #157347);
+    color: #fff;
+    padding: 10px 15px;
+    font-weight: 600;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.confirm-header button {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.confirm-header button:hover {
+    background: rgba(255, 255, 255, 0.35);
+}
